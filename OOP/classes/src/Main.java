@@ -9,9 +9,9 @@ public class Main {
         CustomerManager customerManager = new CustomerManager();// CustomerManager türünde bir nesne oluşturduk
         CustomerManager customerManager2 = new CustomerManager();
         customerManager = customerManager2;
-        // Bu durumda customermanager ve customermanager2, 9.satırdaki nesneyi gösterir.
+        // Bu durumda customermanager ve customermanager2, 10.satırdaki nesneyi gösterir.
         // Yani referanslar (adresler) eşitlendi.
-        // Ayrıca 8. satırda oluşturduğumuz nesne heapte bulunmakta ancak kullanılmamaktadır. Garbage Collector onu temizler.
+        // Ayrıca 9. satırda oluşturduğumuz nesne heapte bulunmakta ancak kullanılmamaktadır. Garbage Collector onu temizler.
         // Yine de new kullanmak maliyetli olduğundan böyle durumlara dikkat etmeliyiz.
 
         customerManager.Add();
